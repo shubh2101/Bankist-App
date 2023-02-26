@@ -134,10 +134,16 @@ img.animate {
   background-color: rgba(255, 255, 255, 0.95);
 }
 
-.nav__logo {
+.nav__logo  {
   height: 4.5rem;
   transition: all 0.3s;
 }
+.nav__logoshort {
+  height: 4.5rem;
+  transition: all 0.3s;
+  display: none;
+}
+
 
 .nav__links {
   display: flex;
@@ -757,6 +763,9 @@ h4 {
   }
   .nav__logo {
     display: none;
+  }
+  .nav__logoshort {
+    display: block;
   }
 
   .header__img {
